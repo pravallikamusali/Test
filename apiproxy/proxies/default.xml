@@ -31,7 +31,7 @@
     <HTTPProxyConnection>
         <BasePath>/test</BasePath>
         <VirtualHost>default</VirtualHost>
-        <VirtualHost>secure</VirtualHost>
+       <!--  <VirtualHost>secure</VirtualHost> -->
     </HTTPProxyConnection>
     <RouteRule name="noroute"/>
 </ProxyEndpoint>
